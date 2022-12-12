@@ -56,7 +56,9 @@ namespace eTicketN
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
+            //DB Seeding
             AppDbInitializer.Seed(app);
+            
         }
     }
 }
